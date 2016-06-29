@@ -9,10 +9,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.guest.houseofdreams.CatInfoActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/catPicture"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="30dp"
+        android:textSize="25sp"
         android:id="@+id/showCat"
-        android:text="here is a cat."/>
+        android:text="here is a cat."
+        android:layout_below="@+id/catPicture"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+
 
 </RelativeLayout>
