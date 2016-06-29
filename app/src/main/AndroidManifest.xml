@@ -12,17 +12,17 @@
             android:name=".MainActivity"
             android:theme="@style/NoActionBarTheme">
             <intent-filter>
-                 <action android:name="android.intent.action.MAIN" />
-                 <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".CatSearchActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.guest.houseofdreams.MainActivity">
-
-            </meta-data>
+                android:value="com.example.guest.houseofdreams.MainActivity"></meta-data>
         </activity>
+        <activity android:name=".CatInfoActivity"></activity>
     </application>
 
 </manifest>
