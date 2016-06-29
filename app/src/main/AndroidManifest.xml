@@ -22,7 +22,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.guest.houseofdreams.MainActivity"></meta-data>
         </activity>
-        <activity android:name=".CatInfoActivity"></activity>
+        <activity android:name=".CatInfoActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.guest.houseofdreams.CatSearchActivity"></meta-data>
+        </activity>
     </application>
 
 </manifest>
